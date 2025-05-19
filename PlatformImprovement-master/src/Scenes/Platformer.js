@@ -207,8 +207,9 @@ class Platformer extends Phaser.Scene {
 
         // Score
         my.text.score = this.add.text(20, 20, "Coins Collected: 0",{
-            fontFamily: "'Consolas'",
-            fontSize: '24px',
+            fontFamily: "'Jersey 10'",
+            style: "regular",
+            fontSize: '36px',
             color: "#ffffff",
             stroke: "#000000",
             strokeThickness: 2
